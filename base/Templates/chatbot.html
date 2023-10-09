@@ -1,0 +1,27 @@
+<!-- chatbot.html -->
+{% load static %}
+{% csrf_token %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>QanoonBot Chat</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{%static 'chatbot.css'%}">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>Welcome to QanoonBot Chat</h1>
+        </div>
+        <div class="chat-messages" id="chat-messages">
+            <!-- Chat messages will be displayed here -->
+        </div>
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Type your message...">
+            <button id="send-button">Send</button>
+        </div>
+    </div>
+    <script src="{%static 'chatbot.js'%}"></script>    
+</body>
+</html>
