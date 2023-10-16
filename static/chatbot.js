@@ -11,23 +11,25 @@ document.addEventListener("DOMContentLoaded", function () {
         chatMessages.appendChild(messageDiv);
     }
 
-    // Function to handle user input and chatbot responses
     async function handleUserInput() {
         const userMessage = userInput.value.trim();
         if (userMessage !== "") {
             addMessage(userMessage, "user");
-
+    
+            // Retrieve the CSRF token from a cookie
+            const csrftoken = getCookie('csrftoken');
+    
             try {
                 // Send user message to the server and get the chatbot response
-                const response = await fetch("chatbot/", {
+                const response = await fetch("/chatbot/", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
-                        "X-CSRFToken": getCookie("csrftoken") // Ensure you have CSRF token handling
+                        "X-CSRFToken": csrftoken, // Include the correct CSRF token in the header
                     },
-                    body: JSON.stringify({ user_message: userMessage })
+                    body: JSON.stringify({ user_message: userMessage }),
                 });
-
+    
                 if (response.ok) {
                     const data = await response.json();
                     const chatbotResponse = data.response;
@@ -39,11 +41,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 console.error(error);
                 addMessage("An error occurred while processing your request.", "bot");
             }
-
+    
             // Clear the input field
             userInput.value = "";
         }
     }
+    
 
     // Event listener for the send button
     sendButton.addEventListener("click", handleUserInput);
@@ -57,6 +60,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Implement your getCookie function here if needed
     function getCookie(name) {
-        // ...
+        const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
     }
 });

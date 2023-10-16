@@ -1,0 +1,23 @@
+/* global.css */
+body {
+  margin: 0;
+  line-height: normal;
+  overflow-x: auto; /* Prevent horizontal scrolling */
+  overflow-y: scroll;
+}
+
+:root {
+  /* fonts */
+  --font-urbanist: Urbanist;
+  --font-ultra: Ultra;
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-5xl: 24px;
+  --font-size-39xl-6: 58.6px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-dimgray: #746f6f;
+  --color-royalblue: #004aad;
+}

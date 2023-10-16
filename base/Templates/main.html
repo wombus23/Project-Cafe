@@ -1,14 +1,53 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="{% static 'global.css' %}" />
+    <link rel="stylesheet" href="{% static 'index.css' %}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ultra:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;500;800&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-2">
+      <img class="desktop-2-child" alt="" src="{% static 'line-2.svg' %}" />
+
+      <div class="home">HOME</div>
+      <img class="desktop-2-item" alt="" src="{% static 'line-3.svg' %}" />
+
+      <img class="desktop-2-inner" alt="" src="{% static 'line-4.svg' %}" />
+
+      <img class="line-icon" alt="" src="{% static 'line-1.svg' %}" />
+
+      <div class="about-us">ABOUT US</div>
+      <div class="help">HELP</div>
+      <div class="rectangle-div"></div>
+      <div class="login">Login</div>
+      <img class="qb-icon" alt="" src="{% static 'qb.svg' %}" />
+
+      <div class="news">NEWS</div>
+      <div class="qanoon-bot">QANOON-BOT</div>
+      <div class="desktop-2-child1"></div>
+      <div class="coming-soon">COMING SOON</div>
+      <div class="we-are-working">
+        WE ARE WORKING ON AI-DRIVEN CHAT-BOT “QANOON-BOT A LEGAL ADVISOR”.
+      </div>
+      <div class="we-will-be">WE WILL BE BACK SOON TO NOTIFY YOU</div>
+      <div class="desktop-2-child2"></div>
+      <div class="notify-me">NOTIFY ME</div>
+    </div>
+  </body>
 </html>
