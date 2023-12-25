@@ -1,0 +1,190 @@
+.desktop {
+  background-color: #bcdae1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .div {
+  background-color: #bcdae1;
+  overflow-x: hidden;
+  width: 1280.41px;
+  height: 698px;
+  position: relative;
+}
+
+.desktop .qanoon-bot {
+  position: absolute;
+  top: 15px;
+  left: 72px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 800;
+  color: transparent;
+  font-size: 25.2px;
+  letter-spacing: -4.17px;
+  line-height: normal;
+}
+
+.desktop .text-wrapper {
+  color: #5f99c3;
+}
+
+.desktop .span {
+  color: #615fc3;
+}
+
+.desktop .home {
+  position: absolute;
+  top: 24px;
+  left: 352px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15.6px;
+  letter-spacing: 2.25px;
+  line-height: normal;
+}
+
+.desktop .about-us {
+  position: absolute;
+  top: 24px;
+  left: 544px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15.6px;
+  letter-spacing: 2.25px;
+  line-height: normal;
+}
+
+.desktop .overlap {
+  position: absolute;
+  width: 108px;
+  height: 35px;
+  top: 15px;
+  left: 1066px;
+  background-color: #1e1e1e;
+  border-radius: 17.81px;
+}
+
+.desktop .login {
+  position: absolute;
+  width: 78px;
+  top: 7px;
+  left: 15px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 800;
+  color: #a1bed3;
+  font-size: 15.1px;
+  text-align: center;
+  letter-spacing: 0.68px;
+  line-height: normal;
+}
+
+.desktop .p {
+  position: absolute;
+  top: 171px;
+  left: 509px;
+  text-shadow: 0px 1.28px 1.28px #00000040;
+  font-family: "Outfit", Helvetica;
+  font-weight: 800;
+  color: transparent;
+  font-size: 45.3px;
+  letter-spacing: -7.47px;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-2 {
+  color: #426c8a;
+}
+
+.desktop .text-wrapper-3 {
+  color: #2d353b;
+}
+
+.desktop .text-wrapper-4 {
+  position: absolute;
+  width: 226px;
+  top: 298px;
+  left: 527px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 500;
+  color: #736f6f;
+  font-size: 28.7px;
+  text-align: center;
+  letter-spacing: 0.72px;
+  line-height: normal;
+}
+
+.desktop .WE-ARE-WORKING-ON-AI {
+  position: absolute;
+  top: 351px;
+  left: 445px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 300;
+  color: #736f6f;
+  font-size: 10.4px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .overlap-group {
+  position: absolute;
+  width: 111px;
+  height: 48px;
+  top: 430px;
+  left: 584px;
+  background-color: #2d353b;
+  border-radius: 29.39px;
+}
+
+.desktop .notify-me {
+  position: absolute;
+  top: 15px;
+  left: 21px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 800;
+  color: #a1bed3;
+  font-size: 12.6px;
+  text-align: center;
+  letter-spacing: 0.57px;
+  line-height: normal;
+}
+
+.desktop .overlap-2 {
+  position: absolute;
+  width: 1296px;
+  height: 1px;
+  top: 58px;
+  left: -2px;
+}
+
+.desktop .line {
+  left: 11px;
+  position: absolute;
+  width: 1285px;
+  height: 1px;
+  top: 0;
+}
+
+.desktop .img {
+  left: 0;
+  position: absolute;
+  width: 1285px;
+  height: 1px;
+  top: 0;
+}
+
+.desktop .contact-us {
+  position: absolute;
+  top: 24px;
+  left: 753px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15.6px;
+  letter-spacing: 2.25px;
+  line-height: normal;
+}

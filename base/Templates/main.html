@@ -1,53 +1,42 @@
-{% load static %}
-
+{%load static%}
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="initial-scale=1, width=device-width" />
-
     <link rel="stylesheet" href="{% static 'global.css' %}" />
-    <link rel="stylesheet" href="{% static 'index.css' %}" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Ultra:wght@400&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;500;800&display=swap"
-    />
+    <link rel="stylesheet" href="{% static 'style.css' %}" />
   </head>
   <body>
-    <div class="desktop-2">
-      <img class="desktop-2-child" alt="" src="{% static 'line-2.svg' %}" />
-
-      <div class="home">HOME</div>
-      <img class="desktop-2-item" alt="" src="{% static 'line-3.svg' %}" />
-
-      <img class="desktop-2-inner" alt="" src="{% static 'line-4.svg' %}" />
-
-      <img class="line-icon" alt="" src="{% static 'line-1.svg' %}" />
-
-      <div class="about-us">ABOUT US</div>
-      <div class="help">HELP</div>
-      <div class="rectangle-div"></div>
-      <div class="login">Login</div>
-      <img class="qb-icon" alt="" src="{% static 'qb.svg' %}" />
-
-      <div class="news">NEWS</div>
-      <div class="qanoon-bot">QANOON-BOT</div>
-      <div class="desktop-2-child1"></div>
-      <div class="coming-soon">COMING SOON</div>
-      <div class="we-are-working">
-        WE ARE WORKING ON AI-DRIVEN CHAT-BOT “QANOON-BOT A LEGAL ADVISOR”.
+    <div class="desktop">
+      <div class="div">
+        <p class="qanoon-bot">
+          <span class="text-wrapper">qan</span>
+          <span class="span">oo</span>
+          <span class="text-wrapper">n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b</span>
+          <span class="span">o</span>
+          <span class="text-wrapper">t </span>
+        </p>
+        <div class="home">HOME</div>
+        <div class="about-us">ABOUT US</div>
+        <div class="overlap"><div class="login">LOGIN</div></div>
+        <p class="p">
+          <span class="text-wrapper-2">QAN</span>
+          <span class="text-wrapper-3">OO</span>
+          <span class="text-wrapper-2"
+            >N&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B</span
+          >
+          <span class="text-wrapper-3">O</span>
+          <span class="text-wrapper-2">T </span>
+        </p>
+        <div class="text-wrapper-4">COMING SOON</div>
+        <p class="WE-ARE-WORKING-ON-AI">
+          WE ARE WORKING ON&nbsp;&nbsp;AI-DRIVEN CHAT-BOT “QANOON-BOT A LEGAL ADVISOR”.<br />WE WILL BE BACK SOON TO
+          NOTIFY YOU
+        </p>
+        <div class="overlap-group"><div class="notify-me">NOTIFY ME</div></div>
+        <div class="overlap-2"><img class="line" src="{% static 'line-1.svg' %}" /> <img class="img" src="{% static 'line-2.svg' %}" /></div>
+        <div class="contact-us">CONTACT US</div>
       </div>
-      <div class="we-will-be">WE WILL BE BACK SOON TO NOTIFY YOU</div>
-      <div class="desktop-2-child2"></div>
-      <div class="notify-me">NOTIFY ME</div>
     </div>
   </body>
 </html>

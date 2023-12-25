@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  line-height: 1.5; /* Set an appropriate line-height value */
+}
+
+:root {
+  /* Fonts */
+  --font-outfit: 'Outfit';
+
+  /* Font Sizes */
+  --font-size-xxl: 32px;
+  --font-size-xl: 24px;
+  --font-size-l: 20px;
+
+  /* Colors */
+  --color-lightsteelblue: #a2bfd3;
+  --color-darkslategray: #2d363c;
+  --color-dimgray: #746f6f;
+  --color-steelblue-100: #5f99c3;
+  --color-steelblue-200: #426c8a;
+  --color-black: #000;
+  --color-slateblue: #615fc3;
+}
