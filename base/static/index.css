@@ -1,0 +1,242 @@
+.desktop1-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.desktop1-desktop1 {
+  gap: 10px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: rgba(188, 218, 225, 1);
+}
+.desktop1-desktop11 {
+  gap: 8.891719818115234px;
+  width: 1283px;
+  height: 698px;
+  display: flex;
+  padding: 8.891719818115234px;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(188, 218, 225, 1);
+}
+.desktop1-rectangle2 {
+  top: 58px;
+  left: 0px;
+  width: 1283px;
+  height: 641px;
+  position: absolute;
+}
+.desktop1-text {
+  top: 16px;
+  left: 74px;
+  color: rgba(95, 153, 195, 1);
+  height: auto;
+  position: absolute;
+  font-size: 25.249300003051758px;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Outfit;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop1-text01 {
+  color: rgba(95, 153, 195, 1);
+}
+.desktop1-text02 {
+  color: rgba(97, 95, 195, 1);
+}
+.desktop1-text03 {
+  color: rgba(95, 153, 195, 1);
+}
+.desktop1-text04 {
+  color: rgba(97, 95, 195, 1);
+}
+.desktop1-text06 {
+  top: 25px;
+  left: 354px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 15.55030345916748px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Outfit;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop1-text08 {
+  top: 25px;
+  left: 544px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 15.55030345916748px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Outfit;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop1-rectangle1 {
+  top: 314px;
+  left: 914px;
+  width: 108px;
+  height: 35px;
+  position: absolute;
+}
+.desktop1-text10 {
+  top: 322px;
+  left: 929px;
+  color: rgba(0, 0, 0, 1);
+  width: 78px;
+  height: auto;
+  position: absolute;
+  font-size: 15.140217781066895px;
+  font-style: ExtraBold;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop1-text12 {
+  top: 304px;
+  left: 251px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 45.26810836791992px;
+  box-shadow: 0px 1.2788091897964478px 1.2788091897964478px 0px rgba(0, 0, 0, 0.25) ;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Outfit;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop1-text13 {
+  color: rgba(255, 255, 255, 1);
+}
+.desktop1-text14 {
+  color: rgba(112, 125, 135, 1);
+}
+.desktop1-text15 {
+  color: rgba(255, 255, 255, 1);
+}
+.desktop1-text16 {
+  color: rgba(112, 125, 135, 1);
+}
+.desktop1-line1 {
+  top: 58px;
+  left: 9px;
+  width: 1285px;
+  height: 1px;
+  position: absolute;
+}
+.desktop1-line2 {
+  top: 58px;
+  left: -2px;
+  width: 1285px;
+  height: 1px;
+  position: absolute;
+}
+.desktop1-text18 {
+  top: 25px;
+  left: 753px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 15.55030345916748px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Outfit;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop1-text20 {
+  top: 378px;
+  left: 251px;
+  color: rgba(188, 218, 225, 1);
+  height: auto;
+  position: absolute;
+  font-size: 15.55030345916748px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Outfit;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop1-text22 {
+  top: 254px;
+  left: 914px;
+  color: rgba(46, 60, 70, 1);
+  width: 217px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: ExtraBold;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop1-rectangle3 {
+  top: 314px;
+  left: 1040px;
+  width: 108px;
+  height: 35px;
+  position: absolute;
+}
+.desktop1-text24 {
+  top: 323px;
+  left: 1055px;
+  color: rgba(161, 190, 211, 1);
+  width: 78px;
+  height: auto;
+  position: absolute;
+  font-size: 15.140217781066895px;
+  font-style: ExtraBold;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop1-text26 {
+  top: 323px;
+  left: 929px;
+  color: rgba(161, 190, 211, 1);
+  width: 78px;
+  height: auto;
+  position: absolute;
+  font-size: 15.140217781066895px;
+  font-style: ExtraBold;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
